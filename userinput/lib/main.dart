@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todoapp/pages/todo_page.dart';
+import 'package:userinput/pages/counter_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: ToDoPage(),
-      debugShowCheckedModeBanner: false,
-    );
+    return MaterialApp(home: CounterPage());
   }
 }
