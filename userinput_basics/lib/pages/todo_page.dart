@@ -30,8 +30,10 @@ class _ToDoPageState
     return Scaffold(
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(
-            25.0,
+          padding: const EdgeInsets.only(
+            left: 25.0,
+            right: 25.0,
+            top: 25.0,
           ),
           child: Column(
             mainAxisAlignment:
@@ -52,6 +54,7 @@ class _ToDoPageState
               ElevatedButton(
                 onPressed: greetUser,
                 child: Text("Tap Me!"),
+
               ),
             ],
           ),

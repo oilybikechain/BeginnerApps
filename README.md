@@ -1,0 +1,1 @@
+This is a repository of flutte projects I made while following the flutter tutorial by Mitch Koko.
